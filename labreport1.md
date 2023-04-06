@@ -1,5 +1,7 @@
 # Lab Report 1 - Week 1
 
+![Image](rila.png)
+
 Hello, are you in CSE15L? You will need to access your course-specific account.
 This will be a tutorial on how to log into that.
 
