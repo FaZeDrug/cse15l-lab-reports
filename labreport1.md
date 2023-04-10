@@ -26,3 +26,4 @@ For Windows users, you will need to install Git for Windows and use the instruct
 [Download Git for Windows](https://gitforwindows.org/)
 [Instructions for Using Bash on Windows](https://stackoverflow.com/a/50527994)
 
+Once you have done that, open up a new terminal. To open the 
