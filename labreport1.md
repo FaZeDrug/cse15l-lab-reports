@@ -44,5 +44,25 @@ Next, a prompt will come up asking for your password. Enter your password and pr
 
 ![Image](password prompt.png)
 
+You will see this in the terminal. This means you computer is successfully connected to a computer in the CSE basement!
 
+
+**Step 3 - Trying Some Commands**
+
+Now that you are connected to the a CSE basement computer, you can try running some commands.
+
+Here are some commands
+* cd
+* ls
+* mkdir
+* cp
+* ls -lat
+* ls -a
+* cat
+
+Note that not all of them may work. Below, I have listed the output of a few commands I have run.
+
+![Image](command outputs.png)
+
+Try some out on your own!
 
