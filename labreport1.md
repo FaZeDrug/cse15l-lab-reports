@@ -26,4 +26,23 @@ For Windows users, you will need to install Git for Windows and use the instruct
 [Download Git for Windows](https://gitforwindows.org/)
 [Instructions for Using Bash on Windows](https://stackoverflow.com/a/50527994)
 
-Once you have done that, open up a new terminal. To open the 
+Once you have done that, open up a new terminal. To open the terminal, go to the top of the screen and click "Terminal", and then click "New Terminal".
+
+![Image](new terminal.png)
+
+A new terminal will be opened, and it will look like this.
+
+![Image](terminal opened.png)
+
+In the terminal, enter the following, but replace zz with the letters from your course-specific account, and hit enter.
+
+$ ssh cs15sp23zz@ieng6.ucsd.edu
+
+You will then get a message asking if you want to continue connecting, type yes, and press enter.
+
+Next, a prompt will come up asking for your password. Enter your password and press enter.
+
+![Image](password prompt.png)
+
+
+
