@@ -34,9 +34,9 @@ A new terminal will be opened, and it will look like this.
 
 In the terminal, enter the following, but replace zz with the letters from your course-specific account, and hit enter.
 
-'''
+```
 $ ssh cs15sp23zz@ieng6.ucsd.edu
-'''
+```
 
 You will then get a message asking if you want to continue connecting, type yes, and press enter.
 
