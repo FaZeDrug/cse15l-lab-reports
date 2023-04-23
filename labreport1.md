@@ -5,8 +5,6 @@
 Hello, are you in CSE15L? You will need to access your course-specific account.
 This will be a tutorial on how to log into that.
 
-**Step 2 - Looking Up Your CSE15L Account**
-
 You will need to look up your course-specific account through this link:
 
 [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php)
@@ -14,7 +12,7 @@ You will need to look up your course-specific account through this link:
 
 **Step 1 - Installing Visual Studio Code**
 
-You will need to install Visual Studio Code. Here is a link to install [https://code.visualstudio.com/] (https://code.visualstudio.com/). Once you have downloaded it, a screen like this should pop up.
+You will need to install Visual Studio Code. Here is a link to install [https://code.visualstudio.com/](https://code.visualstudio.com/). Once you have downloaded it, a screen like this should pop up.
 
 ![Image](vscode blank.png)
 
@@ -36,7 +34,7 @@ A new terminal will be opened, and it will look like this.
 
 In the terminal, enter the following, but replace zz with the letters from your course-specific account, and hit enter.
 
-$ ssh cs15sp23zz@ieng6.ucsd.edu
+'$ ssh cs15sp23zz@ieng6.ucsd.edu'
 
 You will then get a message asking if you want to continue connecting, type yes, and press enter.
 
