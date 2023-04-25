@@ -72,6 +72,7 @@ This line attempts to swap elements at arr[i] with arr[arr.length - i - 1]. This
   }
 ```
 
+
 Here is the corrected code:
 
 The line that is changed is for-loop and the assignment. The for-loop is changed to i < arr.length / 2 because of the iterations. In the first iteration, the second half of the array will be swapped. In the second iteration, the first half of the array will be swapped. We use the temp variable to store the original value of arr[i]. We will then use arr[arr.length-i-1] = temp to swap the values.
