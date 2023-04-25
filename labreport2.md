@@ -7,14 +7,17 @@ Hello! Here is my Lab Report 2 - Servers and Bugs (Week 3)
 
 **Part 1 - Web Server**
 
-![Image](vscode blank.png)
+![Image](StringServer.png)
 *The methods in my code that are called are:
-  *
+    *handleRequest
 *The relevant arguments to those methods are:
-  *
-*
+    *URI url (This is the requested URL, which has the information about the query parameters and the path of the URL.)
+ *The relevant fields of the class are:
+    *String placeholder (This empty string stores the message when it is sent. New messages will continue to append into this placeholder.)
+*The values of placeholder changes when the requests match the conditionals. Placeholder will update when URL path matches the url.getPath, url.getPath contains an 's', and contains url.GetQuery. This is due to the conditional statements. If the conditional is true, then placeholder will store the message and return it. If the conditional continues to match, then placeholder will continue storing and returning these messages. If these conditionals are not met, placeholder will not change.
 
-
+[!Image](initialMessage.png)
+[!Image](finalMessage.png)
 
 **Step 2 - Bugs**
 
@@ -84,13 +87,6 @@ static void reverseInPlace(int[] arr) {
   }
 ```
 
-
-
-
-
-
-
-
 **Part 3 - Something I Learned **
 
-From the lab in week 3, I learned this a basic idea of testing: if my code passes the JUnit tests, that doesn't necessarily mean that my code is correct. The code is supposed to properly output whatever I input, and it must take care of any special edge cases.
+From the lab in week 3, I learned this a basic idea of testing: if my code passes the JUnit tests, that doesn't necessarily mean that my code is correct. The code is supposed to properly output whatever I input, and it must take care of any special edge cases. Another thing I have learned is that preciseness/accuracy is key to making my code successful. For example, in lab2, if I made slight adjustments to the server code, like capitalizing "S" in the contains method, then the code won't work and I would not be able to create a server.
