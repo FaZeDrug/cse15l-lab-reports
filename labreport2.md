@@ -10,13 +10,12 @@ Hello! Here is my Lab Report 2 - Servers and Bugs (Week 3)
 ![Image](StringServer.png)
 *The methods in my code that are called are:
     *handleRequest
-*The relevant arguments to those methods are:
-    *URI url (This is the requested URL, which has the information about the query parameters and the path of the URL.)
- *The relevant fields of the class are:
-    *String placeholder (This empty string stores the message when it is sent. New messages will continue to append into this placeholder.)
+*The relevant arguments to those methods are: URI url (This is the requested URL, which has the information about the query parameters and the path of the URL.)
+ *The relevant fields of the class are: String placeholder (This empty string stores the message when it is sent. New messages will continue to append into this placeholder.)
 *The values of placeholder changes when the requests match the conditionals. Placeholder will update when URL path matches the url.getPath, url.getPath contains an 's', and contains url.GetQuery. This is due to the conditional statements. If the conditional is true, then placeholder will store the message and return it. If the conditional continues to match, then placeholder will continue storing and returning these messages. If these conditionals are not met, placeholder will not change.
 
 [!Image](initialMessage.png)
+
 [!Image](finalMessage.png)
 
 **Step 2 - Bugs**
