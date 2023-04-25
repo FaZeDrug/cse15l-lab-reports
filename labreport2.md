@@ -2,23 +2,49 @@
 
 ![Image](CUSTOM IMAGE HERE, EDIT THISSSS)
 
-Hello, are you in CSE15L? You will need to access your course-specific account.
-This will be a tutorial on how to log into that.
-
-You will need to look up your course-specific account through this link:
-
-[https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php)
+Hello! Here is my Lab Report 2 - Servers and Bugs (Week 3)
 
 
-**Step 1 - Installing Visual Studio Code**
-
-You will need to install Visual Studio Code. Here is a link to install [https://code.visualstudio.com/](https://code.visualstudio.com/). Once you have downloaded it, a screen like this should pop up.
+**Part 1 - Web Server**
 
 ![Image](vscode blank.png)
+*The methods in my code that are called are:
+  *
+*The relevant arguments to those methods are:
+  *
+*
 
 
-**Step 2 - Remotely Connecting**
 
-For Windows users, you will need to install Git for Windows and use the instructions in order to use bash.
+**Step 2 - Bugs**
 
-**Part 3 - Something that **
+I will now be going over one of the bugs from lab 3.
+
+Here is failure-inducing input:
+```
+INPUT HEREEEE
+```
+
+[!Image](failure
+
+
+
+
+Here is input that does not induce failure:
+
+```
+ INPUT HEHRHRE
+```
+[!Image](non failure
+
+
+For the JUnit tests, here is what the two inputs output when the tests are run.
+
+This is the 
+
+
+
+
+**Part 3 - Something I Learned **
+
+From the lab in week 3, I learned this a basic idea of testing: if my code passes the JUnit tests, that doesn't necessarily mean that my code is correct. The code is supposed to properly output whatever I input, and it must take care of any special edge cases.
