@@ -1,6 +1,6 @@
 # Lab Report 2 - Week 4
 
-![Image](catgrass.png)
+![Image](catgrass.jpg)
 
 Hello! Here is my Lab Report 2 - Servers and Bugs (Week 3)
 
