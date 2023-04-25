@@ -51,7 +51,7 @@ For the JUnit tests, here is what the two inputs output when the tests are run.
 
 This is the input that induces a failure:
 
-[!Image](failureInput.png)
+![Image](failureInput.png)
 
 This is the input that does not induce a failure:
 
