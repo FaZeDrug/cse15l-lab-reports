@@ -20,27 +20,73 @@ Hello! Here is my Lab Report 2 - Servers and Bugs (Week 3)
 
 I will now be going over one of the bugs from lab 3.
 
+The following refers to the reverseInPlace method.
+
 Here is failure-inducing input:
 ```
-INPUT HEREEEE
+@Test
+public void testReverseinPlaceNatTesting(){
+   int[] sampleInput = {0, 1, 2, 3};
+   ArrayExamples.reverseInPlace(sampleInput);
+   assertArrayEquals(new int[]{ 3, 2, 1, 0}, sampleInput);
+}
 ```
-
-[!Image](failure
-
-
-
 
 Here is input that does not induce failure:
 
 ```
- INPUT HEHRHRE
+@Test
+public void testReverseinPlaceNatTesting(){
+    int[] sampleInput = {99};
+    ArrayExamples.reverseInPlace(sampleInput);
+    assertArrayEquals(new int[]{99}, sampleInput);
+}
 ```
-[!Image](non failure
+
 
 
 For the JUnit tests, here is what the two inputs output when the tests are run.
 
-This is the 
+This is the input that induces a failure:
+
+[!Image](failureInput.png)
+
+This is the input that does not induce a failure:
+
+[!Image](nonFailureInput.png)
+
+
+
+
+Here is the bug:
+
+This line attempts to swap elements at arr[i] with arr[arr.length - i - 1]. This will not work as it overwrites the original array values before the program can even swap them because of the for-loop.
+
+```
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+```
+
+Here is the corrected code:
+
+The line that is changed is for-loop and the assignment. The for-loop is changed to i < arr.length / 2 because of the iterations. In the first iteration, the second half of the array will be swapped. In the second iteration, the first half of the array will be swapped. We use the temp variable to store the original value of arr[i]. We will then use arr[arr.length-i-1] = temp to swap the values.
+
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length/2; i += 1) {
+      int temp = arr[i];
+      arr[i] = arr[arr.length - i - 1];
+      arr[arr.length-i-1] = temp;
+    }
+  }
+```
+
+
+
+
 
 
 
