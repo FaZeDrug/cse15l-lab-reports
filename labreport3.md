@@ -274,6 +274,49 @@ This is the output:
 
 This use of -n with grep searches for lines in the file stringsearch-data/technical/plos/journal.pbio.0020063.txt that contain "tumors" and prints the line numbers it appears on, as well as those lines. This is useful if I was doing research on tumors and wanted to see the lines that "tumors" was located on, and see if it was a useful source to use depending on the amount of lines that contain "tumors".
 
+# 4) `w` to perform an exact word search
+
+Using the option `grep -w [pattern] [file] ` searches for and prints the lines of that exact word, and not as a substring. This option is useful because you can use it if you want to search for the exact word. 
+
+I found the -w option of `grep` through ChatGPT.
+
+This is the command I have used:
+
+```
+$ grep -w "cytoskeleton" technical/plos/journal.pbio.0020100.txt
+```
+
+This is the output:
+```
+expression and regulation of the actin cytoskeleton and of actin binding proteins in a real
+        The cytoskeleton is a meshwork of protein polymers extending throughout the cytoplasm.
+        particularly clear example of this is the use of actin cytoskeleton as a “wool” for
+        organisation of the actin cytoskeleton.
+        cytoskeleton to others affecting cell cycle progression, cytokinesis, and cell shape. They
+        coordinate and regulate the activity of the cytoskeleton in the generation of shape and
+```
+
+This use of -w with grep searches for lines in the file stringsearch-data/technical/plos/journal.pbio.0020063.txt that searches for the whole word "cytoskeleton" and prints those lines. This is useful if I wanted to only see the lines that contain the exact word "cytoskeleton", and not any other version like "cytoskeletonal".
+
+
+Another command I have used is this:
+
+```
+$ grep -w "protein" technical/plos/journal.pbio.0020100.txt
+```
+
+This is the output:
+```
+The cytoskeleton is a meshwork of protein polymers extending throughout the cytoplasm.
+        Clones of cells lacking CAP (Figure 1), a protein known to inhibit actin polymerisation,
+        family proteins that catalyse filament formation, and Abl, a protein kinase that binds CAP
+        experiments, since the same protein can have different effects depending on the cell type.
+```
+
+This use of -w with grep searches for lines in the file stringsearch-data/technical/plos/journal.pbio.0020063.txt that searches for the whole word "protein" and prints those lines. This is useful if I wanted to only see the lines that contain the exact word "protein", and not any other version like "proteins" or "lipoprotein".
+
+
+
 
 
 
