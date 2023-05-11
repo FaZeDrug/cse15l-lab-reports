@@ -3,7 +3,7 @@
 Hello! Here is my Lab Report 3 - Research and Commands
 
 
-**Chosen Command - Grep
+**Chosen Command - `Grep`
 
 The command I have chosen is:
 
