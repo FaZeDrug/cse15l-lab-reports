@@ -24,9 +24,9 @@ To use the `grep` command, this is the format:
 
 **Interesting Ways to Use `grep`**
 
-# 1) `-v` to print the lines that do not match the pattern
+# 1) `-v` to print the lines that do not match a word
 
-Using the option `grep -v [pattern] [file] ` will print the lines that do not match the given pattern in that file. This command is useful because you can narrow down your search by filtering out lines that match the pattern, and return the lines that do not have that line. It is almost like an inverted search tool!
+Using the option `grep -v [pattern] [file] ` will print the lines that do not match the given pattern (or word) in that file. This command is useful because you can narrow down your search by filtering out lines that match the pattern, and return the lines that do not have that line. It is almost like an inverted search tool!
 
 I found the -v option of `grep` through ChatGPT.
 
@@ -176,7 +176,7 @@ PREFACE
 This use of -v with grep searches for lines in the file `stringsearch-data/technical/911report/preface.txt` and prints the lines that do not contain the string "we". This is useful if I wanted to see the lines that exclude "we", since that is mentioned a lot in the file.
 
 
-# 2) `-i` to perform a case-insensitive search
+# 2) `-i` to perform a case-insensitive search of a word
 
 Using the option `grep -i [pattern] [file] ` will disregard the case-sensitivity of the word you are searching for and print the lines that match it. By default, grep is case-sensitive, so this option is useful if you want to disregard the case-sensitivity of the word you are searching for in files.
 
@@ -238,7 +238,7 @@ altruism, human consciousness, complex adaptations, and the origin of living cel
 This use of -i with grep searches for and prints the lines in the file stringsearch-data/technical/plos/journal.pbio.0020071.txt that contain any case-insensitive version of cells, such as "Cells" or "cells". This is useful if I wanted to search for any case-insensitive version of "cells".
 
 
-# 3) `n` to perform a case-insensitive search
+# 3) `n` to perform a case-insensitive search of a word
 
 Using the option `grep -n [pattern] [file] ` prints the line numbers of the word you are searching for, as well as those lines. This option is useful because you can see the line numbers of the word you want to search for, so that you can see exactly what line the word appears on in the file.
 
@@ -274,9 +274,9 @@ This is the output:
 
 This use of -n with grep searches for lines in the file stringsearch-data/technical/plos/journal.pbio.0020063.txt that contain "tumors" and prints the line numbers it appears on, as well as those lines. This is useful if I was doing research on tumors and wanted to see the lines that "tumors" was located on, and see if it was a useful source to use depending on the amount of lines that contain "tumors".
 
-# 4) `w` to perform an exact word search
+# 4) `-w` to perform an exact word search
 
-Using the option `grep -w [pattern] [file] ` searches for and prints the lines of that exact word, and not as a substring. This option is useful because you can use it if you want to search for the exact word. 
+Using the option `grep -w [pattern] [file] ` searches for and prints the lines of that exact word. This option is useful because you can use it if you want to search for the exact word, not as a substring.
 
 I found the -w option of `grep` through ChatGPT.
 
