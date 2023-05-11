@@ -34,7 +34,7 @@ This is the command I have used to grep inside the Media folder, which is inside
 $ grep -v "legal" stringsearch-data/technical/government/Media/5_Legal_Groups.txt
 ```
 
-This is the output:
+This is the output: (note that the string 'Legal' is still included, as I was searching for the lowercase version of the word)
 
 ```
 BY EDWARD MCDONOUGH
