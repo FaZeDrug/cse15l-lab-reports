@@ -83,14 +83,99 @@ office equipment and such. He promised that they would be getting
 in touch with us later on the subject.
 ```
 
-# 2) `-v` to print the lines that do not match the pattern
+Another command I have used is this:
+
+```
+$ grep -v "legal" stringsearch-data/technical/government/Media/5_Legal_Groups.txt
+```
+
+# 2) `-v` to print the lines that do not match the pattern 
 
 Using the option `grep -v [pattern] [file] ` will print the lines that do not match the file.
 
 This is the command I have used to grep inside the Media folder, which is inside the government folder.
 
 ```
-$ grep -v "legal" stringsearch-data/technical/government/Media/5_Legal_Groups.txt
+$ grep -v "we" stringsearch-data/technical/911report/preface.txt
+```
+
+This is the output of that command: (note that the string 'We' is still included, as I was searching for the lowercase version of the word)
+
+```
+PREFACE
+            We present the narrative of this report and the recommendations that flow from it to
+                the President of the United States, the United States Congress, and the American
+                people for their consideration. Ten Commissioners-five Republicans and five
+                Democrats chosen by elected leaders from our nation's capital at a time of great
+                partisan division-have come together to present this report without dissent.
+            We have come together with a unity of purpose because our nation demands it.
+                September 11, 2001, was a day of unprecedented shock and suffering in the history of
+                avoid such tragedy again?
+                Commission on Terrorist Attacks Upon the United States (Public Law 107-306, November
+                27, 2002).
+                relating to the terrorist attacks of September 11, 2001," including those relating
+                to intelligence agencies, law enforcement agencies, diplomacy, immigration issues
+                and border control, the flow of assets to terrorist organizations, commercial
+                aviation, the role of congressional oversight and resource allocation, and other
+                individuals in ten countries. This included nearly every senior official from the
+                current and previous administrations who had responsibility for topics covered in
+                our mandate. We have sought to be independent, impartial, thorough, and nonpartisan.
+                public testimony from 160 witnesses.
+            Our aim has not been to assign individual blame. Our aim has been to provide the
+                fullest possible account of the events surrounding 9/11 and to identify lessons
+                learned.
+            We learned about an enemy who is sophisticated, patient, disciplined, and lethal. The
+                enemy rallies broad support in the Arab and Muslim world by demanding redress of
+                political grievances, but its hostility toward us and our values is limitless. Its
+                purpose is to rid the world of religious and political pluralism, the plebiscite,
+                targets. Collateral damage is not in its lexicon.
+            We learned that the institutions charged with protecting our borders, civil aviation,
+                and national security did not understand how grave this threat could be, and did not
+                adjust their policies, plans, and practices to deter or defeat it. We learned of
+                sharing information across a large and unwieldy government that had been built in a
+                different era to confront different dangers.
+                We hope that the terrible losses chronicled in this report can create something
+                together as a nation. The test before us is to sustain that unity of purpose and
+                meet the challenges now confronting us. We need to design a balanced strategy for
+                the same time protecting our country against future attacks. We have been forced to
+                think about the way our government is organized. The massive departments and
+                accountability.
+                Commissioners, whose dedication to this task has been profound. We have reasoned
+                together over every page, and the report has benefited from this remarkable
+                dialogue. We want to express our considerable respect for the intellect and judgment
+            We want to thank the Commission staff. The dedicated professional staff, headed by
+                Philip Zelikow, has contributed innumerable hours to the completion of this report,
+                setting aside other important endeavors to take on this all-consuming assignment.
+                They have conducted the exacting investigative work upon which the Commission has
+                built. They have given good advice, and faithfully carried out our guidance. They
+                have been superb. We thank the Congress and the President. Executive branch agencies
+                have searched records and produced a multitude of documents for us. We thank
+                insight. The PENTTBOM team at the FBI, the Director's Review Group at the CIA, and
+                Inspectors General at the Department of Justice and the CIA provided great
+                to detail, and readiness to share what they have learned. We have built on the work
+                fine work helped us get started. We thank the City of New York for assistance with
+                documents and witnesses, and the Government Printing Office and W.W. Norton
+                & Company for helping to get this report to the broad public.
+            We conclude this list of thanks by coming full circle: We thank the families of 9/11,
+                whose persistence and dedication helped create the Commission. They have been with
+                us each step of the way, as partners and witnesses. They know better than any of us
+                every knowledgeable person or found every relevant piece of paper. New information
+                inevitably will come to light. We present this report as a foundation for a better
+                understanding of a landmark in the history of our nation.
+            We have listened to scores of overwhelming personal tragedies and astounding acts of
+                heroism and bravery. We have examined the staggering impact of the events of 9/11 on
+                the American people and their amazing resilience and courage as they fought back. We
+                have admired their determination to do their best to prevent another tragedy while
+                preparing to respond if it becomes necessary. We emerge from this investigation with
+                enormous sympathy for the victims and their loved ones, and with enhanced respect
+                for the American people. We recognize the formidable challenges that lie ahead.
+            We also approach the task of recommendations with humility. We have made a limited
+                most important, whose implementation can make the greatest difference. We came into
+                this process with strong opinions about what would work. All of us have had to
+                considered the views of others. We hope our report will encourage our fellow
+                citizens to study, reflect-and act.
+            Thomas H. Kean, chair
+            Lee H. Hamilton, vice chair
 ```
 
 
