@@ -10,13 +10,13 @@ Hello! Here is my Lab Report 2 - Servers and Bugs (Week 3)
 ![Image](StringServer.png)
 
 
-The methods in my code that are called are: handleRequest
+The methods in my code that are called are: handleRequest (This is called by the Server class to handle the requests to the URI)
 
 The relevant arguments to those methods are: URI url (This is the requested URL, which has the information about the query parameters and the path of the URL.)
  
 The relevant fields of the class are: String placeholder (This empty string stores the message when it is sent. New messages will continue to append into this placeholder.)
 
-The values of placeholder changes when the requests match the conditionals. Placeholder will update when URL path matches the url.getPath, url.getPath contains an 's', and contains url.GetQuery. This is due to the conditional statements. If the conditional is true, then placeholder will store the message and return it. If the conditional continues to match, then placeholder will continue storing and returning these messages. If these conditionals are not met, placeholder will not change.
+The values of placeholder changes depending on the requests made to the server. If the requested URL path matches /addMessage, and the query contains "s", the value of String placeholder is updated to include the message sent with the request. The additional requests that match this conditional will append the message in the request by storing it in placeholder. If the requested URL path does not match /addMessage or the query does not contain an "s", the placeholder will not change. Lastly, if the requested URL does not match any path that is valid, the server will return a "404 Not Found!" message.
 
 ![Image](initialMessage.png)
 
