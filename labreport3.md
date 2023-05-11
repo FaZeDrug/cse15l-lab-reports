@@ -1,6 +1,6 @@
 # Lab Report 3 - Week 6 (by Natasha Tran)
 
-!Image[rilacat.jpg]
+![Image](rilacat.jpg)
 
 Hello! Here is my Lab Report 3 - Research and Commands
 
