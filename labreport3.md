@@ -26,7 +26,7 @@ To use the `grep` command, this is the format:
 
 # 1) `-v` to print the lines that do not match the pattern
 
-Using the option `grep -v [pattern] [file] ` will print the lines that do not match the file.
+Using the option `grep -v [pattern] [file] ` will print the lines that do not match the given pattern in that file. This command is useful because you can narrow down your search by filtering out lines that match the pattern, and return the lines that do not have that line. It is almost like an inverted search tool!
 
 This is the command I have used to grep inside the Media folder, which is inside the government folder.
 
@@ -82,6 +82,17 @@ cost received so far. There still needed to be furnishings and
 office equipment and such. He promised that they would be getting
 in touch with us later on the subject.
 ```
+
+# 2) `-v` to print the lines that do not match the pattern
+
+Using the option `grep -v [pattern] [file] ` will print the lines that do not match the file.
+
+This is the command I have used to grep inside the Media folder, which is inside the government folder.
+
+```
+$ grep -v "legal" stringsearch-data/technical/government/Media/5_Legal_Groups.txt
+```
+
 
 
 
