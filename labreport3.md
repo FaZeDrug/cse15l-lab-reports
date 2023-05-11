@@ -188,7 +188,7 @@ This is the command I have used:
 $ grep -i "evolution" stringsearch-data/technical/plos/journal.pbio.0020071.txt
 ```
 
-This is the output: (note that this is all of the lines that contain "Evolution" or "evolution")
+This is the output:
 
 ```
 Evolution is a complex phenomenon that requires a broad understanding of many areas of
@@ -218,6 +218,25 @@ Evolution is a complex phenomenon that requires a broad understanding of many ar
         recommend it to anyone who wants to know about evolution. Moreover, I can recommend it to
         Japanese students not only as an introduction to evolution, but also as an exercise in
 ```
+
+This use of -i with grep searches for lines in the file stringsearch-data/technical/plos/journal.pbio.0020071.txt that contain any case-insensitive version of evolution, such as "Evolution" or "evolution".
+
+Another command I have used is this:
+
+```
+$ grep -i "cells" stringsearch-data/technical/plos/journal.pbio.0020071.txt
+```
+
+This is the output of that command:
+
+```
+altruism, human consciousness, complex adaptations, and the origin of living cells.
+        basic background of biology, such as the gene, DNA, and cells. When I read a recent article
+```
+
+This use of -i with grep searches for lines in the file stringsearch-data/technical/plos/journal.pbio.0020071.txt that contain any case-insensitive version of cells, such as "Cells" or "cells".
+
+
 
 
 
