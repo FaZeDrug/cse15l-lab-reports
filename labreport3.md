@@ -28,6 +28,8 @@ To use the `grep` command, this is the format:
 
 Using the option `grep -v [pattern] [file] ` will print the lines that do not match the given pattern in that file. This command is useful because you can narrow down your search by filtering out lines that match the pattern, and return the lines that do not have that line. It is almost like an inverted search tool!
 
+I found the -v option of `grep` through ChatGPT.
+
 This is the command I have used to grep inside the Media folder, which is inside the government folder.
 
 ```
@@ -83,17 +85,9 @@ office equipment and such. He promised that they would be getting
 in touch with us later on the subject.
 ```
 
+This use of -v with grep searches for lines in the file ` stringsearch-data/technical/government/Media/5_Legal_Groups.txt` that do not contain the string "legal".
+
 Another command I have used is this:
-
-```
-$ grep -v "legal" stringsearch-data/technical/government/Media/5_Legal_Groups.txt
-```
-
-# 2) `-v` to print the lines that do not match the pattern 
-
-Using the option `grep -v [pattern] [file] ` will print the lines that do not match the file.
-
-This is the command I have used to grep inside the Media folder, which is inside the government folder.
 
 ```
 $ grep -v "we" stringsearch-data/technical/911report/preface.txt
@@ -178,6 +172,52 @@ PREFACE
             Lee H. Hamilton, vice chair
 ```
 
+This use of -v with grep searches for lines in the file `stringsearch-data/technical/911report/preface.txt` that do not contain the string "we".
+
+
+# 2) `-i` to perform a case-insensitive search
+
+Using the option `grep -i [pattern] [file] ` will disregard the case-sensitivity of the word you are searching for and print the lines that match it. By default, grep is case-sensitive, so this option is useful if you want to disregard the case-sensitivity of the word you are searching for in files.
+
+I found the -i option of `grep` through ChatGPT.
+
+This is the command I have used:
+
+
+```
+$ grep -i "evolution" stringsearch-data/technical/plos/journal.pbio.0020071.txt
+```
+
+This is the output: (note that this is all of the lines that contain "Evolution" or "evolution")
+
+```
+Evolution is a complex phenomenon that requires a broad understanding of many areas of
+        classic text on evolution (1998) contains 26 chapters totaling 763 pages. To cover the
+        Evolution: A Very Short Introduction , is no mean feat.
+        points. By contrast, most evolutionary textbooks (other than those purely on human
+        evolution) tend to focus on nonhuman organisms. As with traits in every other organism,
+        relevance of evolution. For example, to explain how mutation can cause the loss of a
+        provide only a brief mention of one important process—development. Evolutionary
+        insights into our understanding of the mechanisms of evolution. For example, the absence of
+        constraints can actually alter the direction of evolution. Although the key forces driving
+        evolution are usually thought of as mutation, genetic drift, natural selection, and
+        developmental constraints, can also determine the rate and direction of evolution.
+        understand from an evolutionary point of view. These ‘difficult problems’ are ageing,
+        either been explained or will eventually be explained by modern evolutionary theories, and
+        unknown mechanisms might be essential for the evolution of the complex traits. I realize
+        that opponents of modern evolutionary theory, such as creationists, have often cited these
+        traditional problems to support their conclusion that modern evolutionary theory is wrong;
+        mechanisms still to be discovered that play a key role in evolution. Describing potentially
+        evolutionary biology with the hope that there are still some theoretical battles to be
+        Charlesworths' book, providing evidence for evolution occupies 49 of the 130 pages. They
+        evolution (Chapter 3) and subsequently discuss evidence from the geographical distributions
+        about a teaching controversy concerning evolution (Scott and Branch 2003), I began to
+        convincing readers of the reality and cogency of evolution and evolution theory by astutely
+        In Japan, there seem to be few people who deny the facts of evolution, although there
+        convince creationists of evolution is usually extremely difficult, if not impossible,
+        recommend it to anyone who wants to know about evolution. Moreover, I can recommend it to
+        Japanese students not only as an introduction to evolution, but also as an exercise in
+```
 
 
 
