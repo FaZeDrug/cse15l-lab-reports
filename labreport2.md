@@ -55,7 +55,7 @@ For the JUnit tests, here is what the two inputs output when the tests are run.
 
 This is the output of the input that induces a failure
 
-![Image](natTestingRevised)
+![Image](natTestingRevised.png)
 
 This is the output of the input that does not induce a failure:
 
