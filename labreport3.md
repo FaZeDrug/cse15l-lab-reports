@@ -85,7 +85,8 @@ office equipment and such. He promised that they would be getting
 in touch with us later on the subject.
 ```
 
-This use of -v with grep searches for lines in the file ` stringsearch-data/technical/government/Media/5_Legal_Groups.txt` and prints the linesthat do not contain the string "legal".
+This use of -v with grep searches for lines in the file ` stringsearch-data/technical/government/Media/5_Legal_Groups.txt` and prints the linesthat do not contain the string "legal". This is useful if I wanted to see the lines that exclude "legal", since that is mentioned a lot in the file.
+
 
 Another command I have used is this:
 
@@ -172,7 +173,7 @@ PREFACE
             Lee H. Hamilton, vice chair
 ```
 
-This use of -v with grep searches for lines in the file `stringsearch-data/technical/911report/preface.txt` and prints the lines that do not contain the string "we".
+This use of -v with grep searches for lines in the file `stringsearch-data/technical/911report/preface.txt` and prints the lines that do not contain the string "we". This is useful if I wanted to see the lines that exclude "we", since that is mentioned a lot in the file.
 
 
 # 2) `-i` to perform a case-insensitive search
@@ -219,7 +220,7 @@ Evolution is a complex phenomenon that requires a broad understanding of many ar
         Japanese students not only as an introduction to evolution, but also as an exercise in
 ```
 
-This use of -i with grep searches for and prints the lines in the file stringsearch-data/technical/plos/journal.pbio.0020071.txt that contain any case-insensitive version of evolution, such as "Evolution" or "evolution".
+This use of -i with grep searches for and prints the lines in the file stringsearch-data/technical/plos/journal.pbio.0020071.txt that contain any case-insensitive version of evolution, such as "Evolution" or "evolution".This is useful if I wanted to search for any case-insensitive version of "evolution"
 
 Another command I have used is this:
 
@@ -234,10 +235,10 @@ altruism, human consciousness, complex adaptations, and the origin of living cel
         basic background of biology, such as the gene, DNA, and cells. When I read a recent article
 ```
 
-This use of -i with grep searches for and prints the lines in the file stringsearch-data/technical/plos/journal.pbio.0020071.txt that contain any case-insensitive version of cells, such as "Cells" or "cells".
+This use of -i with grep searches for and prints the lines in the file stringsearch-data/technical/plos/journal.pbio.0020071.txt that contain any case-insensitive version of cells, such as "Cells" or "cells". This is useful if I wanted to search for any case-insensitive version of "cells".
 
 
-# 2) `n` to perform a case-insensitive search
+# 3) `n` to perform a case-insensitive search
 
 Using the option `grep -n [pattern] [file] ` prints the line numbers of the word you are searching for, as well as those lines. This option is useful because you can see the line numbers of the word you want to search for, so that you can see exactly what line the word appears on in the file.
 
@@ -257,7 +258,21 @@ This is the output:
 90:        PLoS Medicine community at http://www.plos.org/medicine and help us to
 ```
 
-This use of -n with grep searches for lines in the file stringsearch-data/technical/plos/journal.pbio.0020063.txt that contain "medicine" and prints the line numbers it appears on, as well as those lines.
+This use of -n with grep searches for lines in the file stringsearch-data/technical/plos/journal.pbio.0020063.txt that contain "medicine" and prints the line numbers it appears on, as well as those lines. This is useful if I was doing research on medicine and wanted to see the lines that "medicine" was located on.
+
+Another command I have used is this:
+
+```
+$ grep -n "tumors" stringsearch-data/technical/plos/journal.pbio.0020063.txt
+```
+
+This is the output:
+
+```
+62:        10.1371/journal.pbio.0020007) on the microarray analysis of tumors and one by Sarah
+```
+
+This use of -n with grep searches for lines in the file stringsearch-data/technical/plos/journal.pbio.0020063.txt that contain "tumors" and prints the line numbers it appears on, as well as those lines. This is useful if I was doing research on tumors and wanted to see the lines that "tumors" was located on, and see if it was a useful source to use depending on the amount of lines that contain "tumors".
 
 
 
