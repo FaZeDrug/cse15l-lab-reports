@@ -9,6 +9,8 @@ The command I have chosen is `grep `.
 
 The `grep` command is a command-line tool that searches for a given string in a file (or multiple files) and prints all the lines that match that string.
 
+
+
 **How does `grep` work?**
 
 To use the `grep` command, this is the format:
