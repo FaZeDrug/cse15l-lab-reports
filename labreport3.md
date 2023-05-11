@@ -18,7 +18,8 @@ To use the `grep` command, this is the format:
 `grep [options] [pattern] [file]`
 
 *  `grep`: This is the command itself
-* `options`: Grep has options that can modify its behavior. I will be exploring them further in this lab report.
+* `options`: Grep has options that can modify its behavior. It is not necessary to include an option for grep, but I will be exploring them further in this lab report.
+* `pattern`: The pattern is the text string you want to search for.
 * `file`: This is the file (or files) you want to use grep on.
 
 
