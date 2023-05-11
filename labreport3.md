@@ -13,7 +13,6 @@ The command I have chosen is `grep `.
 The `grep` command is a command-line tool that searches for a given string in a file (or multiple files) and prints all the lines that match that string.
 
 
-
 **How does `grep` work?**
 
 To use the `grep` command, this is the format:
@@ -26,6 +25,8 @@ To use the `grep` command, this is the format:
 * `file`: This is the file (or files) you want to use grep on.
 
 **Interesting Ways to Use `grep`**
+
+I have found the four ways to use `grep` through ChatGPT. The prompts I asked were: What are the options of grep? Can you give an example of why this option is useful and what it does?
 
 # 1) `-v` to print the lines that do not match a word
 
