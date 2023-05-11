@@ -53,11 +53,11 @@ public void testReverseinPlaceNatTesting(){
 
 For the JUnit tests, here is what the two inputs output when the tests are run.
 
-This is the input that induces a failure:
+This is the output of the input that induces a failure
 
-![Image](failureInput.png)
+![Image](natTestingRevised)
 
-This is the input that does not induce a failure:
+This is the output of the input that does not induce a failure:
 
 ![Image](nonFailureInput.png)
 
