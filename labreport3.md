@@ -1,4 +1,4 @@
-# Lab Report 3 - Week 6 (by Natasha Tran)
+# Lab Report 3 - Week 5 (by Natasha Tran)
 
 ![Image](rilacat.jpg)
 
