@@ -39,7 +39,7 @@ Keys pressed: `<up> <up> <up> <up> <up> <up> <up> <up> <up> <up> <enter>`
 In order to run the tests, I had to first enter the directory for the file. I typed  `ls` and then hit `<enter>`, and then typed `cd lab7` and then hit `<enter>`.
 
 Keys pressed:
-`<ls> <enter>` (This lists the files and directories in a directory)
+`<ls> <enter>` (This lists the files and directories in a directory)(`<br>`)
 `<cd lab7> <enter>` (The `cd` command changes directory. I used this to change the directory to lab7) 
 
   
