@@ -124,6 +124,10 @@ Keys pressed:
 `<git add ListExamples.java>` (To add the files/changes to the repository)<br>
 `<git commit -m 'Initial Commit'> ` (To commit to the repository)<br>
 `<git push -u origin main>` (To push the changes)
+  
+ 
+Output: Here, we see that it has successfully been pushed!
+![Image](finalpic.png)
 
   
 
