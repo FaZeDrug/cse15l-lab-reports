@@ -10,7 +10,7 @@ Hello! Here is my Lab Report 4.
 
 ![Image](login.png)
 
-From week 7's lab tasks, I didn't need to enter my password after I logged in. Once I typed in `ssh cs15lsp23lg@ieng6.ucsd.edu`, I just hit `<enter>` and I was already logged in.
+From week 7's lab tasks, I didn't need to enter my password after I logged in. Once I typed in `ssh cs15lsp23lg@ieng6.ucsd.edu` into the terminal, I just hit `<enter>` and I was already logged in.
 
 Output - 
 
@@ -22,10 +22,16 @@ Output -
   
 Since the command for cloning the repository was already in my history, I pressed <up> ten times and then hit <enter>.
   
-Keys pressed: `<up><up><up><up><up><up><up><up><up><up><enter>`
+Keys pressed: `<up> <up> <up> <up> <up> <up> <up> <up> <up> <up> <enter>`
 
 **Step 3 - Running the Tests to See Failure**
  
  ![Image](cdls.png)
+  
+  In order to run the tests, I had to first enter the directory for the file. I typed  `ls` and then hit enter, and then typed `cd lab7` and then hit enter.
+  
+ Keys pressed:
+  `<ls> <enter>`
+  `<cd lab7> <enter>`
 
 
