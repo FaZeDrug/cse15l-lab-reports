@@ -1,6 +1,6 @@
 # Lab Report 4 - Week 7
 
-![Image](rilacat.jpg)
+![Image]()
 
 Hello! Here is my Lab Report 4.
 
@@ -15,5 +15,14 @@ From week 7's lab tasks, I didn't need to enter my password after I logged in. O
 Output
 
 ![Image](loginoutput.png)
+  
+**Step 2 - Cloning the Repository**
+  
+![Image](cloning.png)
+  
+ Since the command for cloning the repository was already in my history, I pressed <up> ten times and then hit <enter>.
+  
+  Keys pressed: <up><up><up><up><up><up><up><up><up><up><enter>
+
 
 
