@@ -22,7 +22,8 @@ Output
   
  Since the command for cloning the repository was already in my history, I pressed <up> ten times and then hit <enter>.
   
-  Keys pressed: <up><up><up><up><up><up><up><up><up><up><enter>
+ Keys pressed: <up><up><up><up><up><up><up><up><up><up><enter>
 
+  **Step 3 - Running the Tests to See Failure**
 
 
