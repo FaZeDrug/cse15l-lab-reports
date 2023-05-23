@@ -12,7 +12,7 @@ Hello! Here is my Lab Report 4.
 
 From week 7's lab tasks, I didn't need to enter my password after I logged in. Once I typed in `ssh cs15lsp23lg@ieng6.ucsd.edu`, I just hit <enter> and I was already logged in.
 
-Output
+Output - 
 
 ![Image](loginoutput.png)
   
@@ -20,10 +20,12 @@ Output
   
 ![Image](cloning.png)
   
- Since the command for cloning the repository was already in my history, I pressed <up> ten times and then hit <enter>.
+Since the command for cloning the repository was already in my history, I pressed <up> ten times and then hit <enter>.
   
- Keys pressed: <up><up><up><up><up><up><up><up><up><up><enter>
+Keys pressed: <up><up><up><up><up><up><up><up><up><up><enter>
 
-  **Step 3 - Running the Tests to See Failure**
+**Step 3 - Running the Tests to See Failure**
+ 
+ ![Image](cdls.png)
 
 
