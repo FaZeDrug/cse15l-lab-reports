@@ -38,7 +38,7 @@ Keys pressed: `<up> <up> <up> <up> <up> <up> <up> <up> <up> <up> <enter>`
 
 In order to run the tests, I had to first enter the directory for the file. I typed  `ls` and then hit `<enter>`, and then typed `cd lab7` and then hit `<enter>`.
 
-Keys pressed:
+Keys pressed:<br>
 `<ls> <enter>` (This lists the files and directories in a directory) <br>
 `<cd lab7> <enter>` (The `cd` command changes directory. I used this to change the directory to lab7) 
 
@@ -51,9 +51,9 @@ Keys pressed:
 
 Next, to run the tests, I typed `<ls>` into the terminal, then hit `<enter>`. After that, I pasted the `javac` and `java` commands using right click and then hitting `<enter>` for each of those commands.
 
-Keys pressed:
-`<ls> <enter>` (This lists the files and directories in a directory)
-`<left click> <enter>` (For `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`. `javac` compiles all of the code.)
+Keys pressed:<br>
+`<ls> <enter>` (This lists the files and directories in a directory)<br>
+`<left click> <enter>` (For `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`. `javac` compiles all of the code.)<br>
 `<left click> <enter>` (For `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`. `javac` executes the code.)
   
   
@@ -74,9 +74,9 @@ In order to edit the code, I will need to use VIM. I typed `<vim> <ListExamples.
 to be able to enter text. I pressed `<backspace>` to delete the number 1, and then typed `<2>` to replace the number 1 with 2.
 
 Keys pressed:
-`<vim> <ListExamples.java> <enter>` (The VIM command allows me to edit text of ListExamples.java)
-`<k> <k> <k> <k> <k>`(To move cursor up)
-`<l> <l> <l> <l> <l> <l> <l> <l> <l> <l>` (To move right)
+`<vim> <ListExamples.java> <enter>` (The VIM command allows me to edit text of ListExamples.java)<br>
+`<k> <k> <k> <k> <k>`(To move cursor up)<br>
+`<l> <l> <l> <l> <l> <l> <l> <l> <l> <l>` (To move right)<br>
 `<i> <backspace> <2>` ( `<i>` allows me to edit text, then I deleted 1 and typed two in its place)
 
 
@@ -95,14 +95,14 @@ Output: Here is what the code looks like after I edited the text. Note that not 
 
 I had to save the changes I made in step 3. To save the changes I made to the edited file, I pressed `<esc>` to exit out of edit mode, and then typed `<:wq>` to save the changes.
 
-Keys pressed:
-`<esc>` (Exits out of edit mode)
+Keys pressed:<br>
+`<esc>` (Exits out of edit mode)<br>
 `<:wq>` (Saves changes to ListExamples.java)
   
 Next, I will compile and execute the code. I used tab to go autofill the `java` and `javac` commands.
   
-Keys pressed:
-`<tab> <tab> <tab> <enter>` (For `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`. `javac` compiles all of the code.)
+Keys pressed:<br>
+`<tab> <tab> <tab> <enter>` (For `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`. `javac` compiles all of the code.)<br>
 `<tab> <tab> <tab> <enter>` (For `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`. `javac` executes the code.)
 
   
@@ -121,8 +121,8 @@ Output: This output shows that the tests are now passing.
 I typed `<git add ListExamples.java>` to add the files/changes to the repository. Then to commit, I typed `<git commit -m 'Initial Commit'> `. To push, I typed `<git push -u origin main>` to finally push the changes.
   
 Keys pressed:
-`<git add ListExamples.java>` (To add the files/changes to the repository)
-`<git commit -m 'Initial Commit'> ` (To commit to the repository)
+`<git add ListExamples.java>` (To add the files/changes to the repository)<br>
+`<git commit -m 'Initial Commit'> ` (To commit to the repository)<br>
 `<git push -u origin main>` (To push the changes)
 
   
