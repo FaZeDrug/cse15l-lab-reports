@@ -1,11 +1,6 @@
 # Lab Report 4 - Week 7
 
-![Image]()
-
 Hello! Here is my Lab Report 4.
-
-
-
 
 
 
