@@ -36,6 +36,7 @@ Using the option `grep -v [pattern] [file] ` will print the lines that do not ma
 
 I found the -v option of `grep` through ChatGPT.
 ![Image](grep -v.png)
+
 After I asked what it does and how it was useful, I better understood -v and made my own definition of it with my own words. I noted that it was an inverted search tool after I experimented with -v in VSCode. ChatGPT said it was "negative matching", but I didn't know what this meant until I used -v in VSCode. I said -v was like an "inverted search tool" as I felt that wording was more appropriate and concise.
 
 This is the command I have used to grep inside the Media folder, which is inside the government folder.
@@ -254,6 +255,7 @@ Using the option `grep -n [pattern] [file] ` prints the line numbers of the word
 
 I found the -n option of `grep` through ChatGPT.
 ![Image](grep -i.png)
+
 I used ChatGPT to help guide the definition and use of -i. I emphasized only the main uses of -i in my own words, while ChatGPT gave a long list of the uses. I gave a more detailed explanation of it, while ChatGPT gave a simplified version.
 
 This is the command I have used:
@@ -292,6 +294,7 @@ Using the option `grep -w [pattern] [file] ` searches for and prints the lines o
 
 I found the -w option of `grep` through ChatGPT.
 ![Image](grep -w.png)
+
 I used ChatGPT to help guide the definition and use of -w. I specified that -w will search for the word itself and not a substring, while ChatGPT vaguely described it as searching for exact word (and not mentioning the crucial part about -w being a search that is not a substring search).
 
 This is the command I have used:
