@@ -27,12 +27,16 @@ To use the `grep` command, this is the format:
 **Interesting Ways to Use `grep`**
 
 I have found the four ways to use `grep` through ChatGPT. The prompts I asked were: What are the options of grep? Can you give an example of why this option is useful and what it does?
+![Image](grep overview.png)
+After I understood what grep does, I made up my own definition for it using my own words, based on my understanding.
 
 # 1) `-v` to print the lines that do not match a word
 
 Using the option `grep -v [pattern] [file] ` will print the lines that do not match the given pattern (or word) in that file. This command is useful because you can narrow down your search by filtering out lines that match the pattern, and return the lines that do not have that line. It is almost like an inverted search tool!
 
 I found the -v option of `grep` through ChatGPT.
+![Image](grep -v.png)
+After I asked what it does and how it was useful, I better understood -v and made my own definition of it with my own words. I noted that it was an inverted search tool after I experimented with -v in VSCode. ChatGPT said it was "negative matching", but I didn't know what this meant until I used -v in VSCode. I said -v was like an "inverted search tool" as I felt that wording was more appropriate and concise.
 
 This is the command I have used to grep inside the Media folder, which is inside the government folder.
 
@@ -185,6 +189,8 @@ This use of -v with grep searches for lines in the file `stringsearch-data/techn
 Using the option `grep -i [pattern] [file] ` will disregard the case-sensitivity of the word you are searching for and print the lines that match it. By default, grep is case-sensitive, so this option is useful if you want to disregard the case-sensitivity of the word you are searching for in files.
 
 I found the -i option of `grep` through ChatGPT.
+![Image](grep -i.png)
+After I asked what -i does, I saw the example. I understood this example, and then made my own definition of what -i does and why it was useful. How I changed it from the ChatGPT output was that I specified the case-insensitivity. ChatGPT failed to mention that grep is case-sensitive by default, so I made sure to explicitly clarify that, which also ties in to why -i is useful (since a case-sensitive search may not be as useful). 
 
 This is the command I have used:
 
@@ -242,11 +248,13 @@ altruism, human consciousness, complex adaptations, and the origin of living cel
 This use of -i with grep searches for and prints the lines in the file stringsearch-data/technical/plos/journal.pbio.0020071.txt that contain any case-insensitive version of cells, such as "Cells" or "cells". This is useful if I wanted to search for any case-insensitive version of "cells".
 
 
-# 3) `n` to perform a case-insensitive search of a word
+# 3) `-n` to perform a search that displays the line numbers and entire line of that word
 
 Using the option `grep -n [pattern] [file] ` prints the line numbers of the word you are searching for, as well as those lines. This option is useful because you can see the line numbers of the word you want to search for, so that you can see exactly what line the word appears on in the file.
 
 I found the -n option of `grep` through ChatGPT.
+![Image](grep -i.png)
+I used ChatGPT to help guide the definition and use of -i. I emphasized only the main uses of -i in my own words, while ChatGPT gave a long list of the uses. I gave a more detailed explanation of it, while ChatGPT gave a simplified version.
 
 This is the command I have used:
 
@@ -283,6 +291,8 @@ This use of -n with grep searches for lines in the file stringsearch-data/techni
 Using the option `grep -w [pattern] [file] ` searches for and prints the lines of that exact word. This option is useful because you can use it if you want to search for the exact word, not as a substring.
 
 I found the -w option of `grep` through ChatGPT.
+![Image](grep -w.png)
+I used ChatGPT to help guide the definition and use of -w. I specified that -w will search for the word itself and not a substring, while ChatGPT vaguely described it as searching for exact word (and not mentioning the crucial part about -w being a search that is not a substring search).
 
 This is the command I have used:
 
