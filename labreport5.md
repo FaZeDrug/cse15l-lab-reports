@@ -121,4 +121,4 @@ public class labreport5 {
 
 # Part 2 - Reflection
 
-Something from the lab that I didn't know before was VIM. I did not know about VIM and it's uses, but I think it is cool. VIM is very different as it is a text editor. I didn't know about how it navigates using the k (up), j (down), h (left), and l (right) keys. I now see VIM memes on my Instagram explore page, and now I can finally relate to them.
+Something from the lab that I didn't know before was that VIM could help edit code from the terminal. I did not know about VIM and it's uses, but I think it is cool. VIM is very different as it is a text editor. I didn't know about how it navigates using the k (up), j (down), h (left), and l (right) keys. I now see VIM memes on my Instagram explore page, and now I can finally relate to them.
