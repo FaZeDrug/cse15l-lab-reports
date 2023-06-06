@@ -99,7 +99,7 @@ java labreport5
 
 * A description of what to edit to fix the bug
 
-To fix the bug, change line 9 of `labreport5.java` to be (0, length), instead of (0, length + 1). If it is `length + 1`, that means that the substring goes out of bounds for the string "Hello, World!, which has length 13 characters. Since the ending index is exclusive, doing `length + 1`, which is 14, would make it out of bounds as the last index of the string is index 12. 
+To fix the bug, change line 9 of `labreport5.java` to be `(0, length)`, instead of `(0, length + 1)`. If it is `length + 1`, that means that the substring goes out of bounds for the string `"Hello, World!`, which has length 13 characters. Since the ending index is exclusive, doing `length + 1`, which is 14, would make it out of bounds as the last index of the string is index 12. 
 
 It should look like this now.
 
