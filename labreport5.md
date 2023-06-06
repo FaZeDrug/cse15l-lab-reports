@@ -21,7 +21,7 @@ When I run my bash script `bash.sh` (which I just type `$ bash bash.sh`, which c
 
 Here is my `labreport5.java` file.
 
-![Image](labrport5.png)
+![Image](labreport5.png)
 
 Here is my `bash.sh` file.
 
