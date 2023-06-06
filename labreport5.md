@@ -41,6 +41,7 @@ Can you try thinking about why exactly your substring would lead to an out of bo
 **2) Another screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is.**
 
 ![Image](fixedcode.png)
+ 
 ![Image](fixederror.png)
 
 **3) At the end, all the information needed about the setup including**
