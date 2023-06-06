@@ -25,7 +25,7 @@ Here is my `labreport5.java` file.
 
 Here is my `bash.sh` file.
 
-![Image](error.png)
+![Image](bash.sh.png)
 
 **Detail the symptom you're seeing, be specific include both what you're seeing and what you expected to see instead. Screenshots are great, copy-pasted terminal output is also
 great. Avoid saying "it doesn't work'**
