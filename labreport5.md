@@ -98,6 +98,24 @@ java labreport5
 
 To fix the bug, change line 9 of `labreport5.java` to be (0, length), instead of (0, length + 1). If it is `length + 1`, that means that the substring goes out of bounds for the string "Hello, World!, which has length 13 characters. Since the ending index is exclusive, doing `length + 1`, which is 14, would make it out of bounds as the last index of the string is index 12. 
 
+It should look like this now.
+
+```
+public class labreport5 {
+    public static void main(String[] args) {
+        String message = "Hello, world";
+        
+        int length = message.length();
+        
+        System.out.println("Length of the message: " + length);
+        
+        String subMessage = message.substring(0, length);
+        
+        System.out.println("Submessage: " + subMessage);
+    }
+}
+```
+
 # Part 2 - Reflection
 
 Something from the lab that I didn't know before was VIM. I did not know about VIM and it's uses, but I think it is cool. VIM is very different as it is a text editor. I didn't know about how it navigates using the k (up), j (down), h (left), and l (right) keys. I now see VIM memes on my Instagram explore page, and now I can finally relate to them.
