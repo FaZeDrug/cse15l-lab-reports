@@ -46,7 +46,9 @@ Can you try thinking about why exactly your substring would lead to an out of bo
 
 **3) At the end, all the information needed about the setup including**
 
-* The file & directory structure needed
+* The file & directory structure needed*
+
+
 ![Image](files.png)
 
 I made a folder called `lab`, and in it, I have `labreport5.java` and `bash.sh`.
