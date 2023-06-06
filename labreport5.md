@@ -32,7 +32,7 @@ great. Avoid saying "it doesn't work'**
 
 The error looks like the substring is IndexOutOfBounds, but the bash script says it's compiling. I'm not sure where I'm going wrong.
 
-**1) A response from a TA asking a leading question or suggesting a command to try **
+**1) A response from a TA asking a leading question or suggesting a command to try**
 
 What do you understand about substrings? When you call substring(x, y), x is an inclusive index and y is an exclusive index.
 
